@@ -30,7 +30,7 @@ namespace GitMergeTest
         public float Inch
         {
             get { return Centimeter * ONE_INCH; }
-            // { 2023. 03. 08.  private SetInch 함수를 새로 추가함.
+            // { 2023. 03. 08.  private SetInch 함수를 새로 추가함. // Gamma
             private set { this.SetInch(value); }
         }
 
@@ -42,7 +42,7 @@ namespace GitMergeTest
         }
 
         private void SetInch(float inchValue) { Centimeter = (int)(inchValue / ONE_INCH); }
-        // } 2023. 03. 08.  private SetInch 함수를 새로 추가함.
+        // } 2023. 03. 08.  private SetInch 함수를 새로 추가함. // Gamma
 
     }
     // } 2023. 03. 08. Ruler 클래스 코드 위치 변경 / Alpha
